@@ -1,0 +1,6 @@
+body {
+    background-color: #2e8b57; /* Główny kolor zielony */ /* Kolor tekstu dla kontrastu */
+    font-family: 'Arial', 'Helvetica', sans-serif; /* Zmieniony krój pisma */
+    margin: 22px; /* Margines wokół całej strony */
+    padding: 22px; /* Odstęp wewnętrzny strony */
+}
