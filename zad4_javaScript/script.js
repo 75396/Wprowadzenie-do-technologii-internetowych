@@ -8,7 +8,11 @@ function zmianaStylu() {
   }
 }
 
-function ukryjProjekty() {
-  sekcja = document.getElementById("projekty");
-  sekcja.classList.toggle("ukryte");
+function ukryjProjekty() { 
+  sekcja = document.getElementById("projekty"); 
+  if (sekcja.style.display === "none") { 
+    sekcja.style.display = "block"; } 
+  else { 
+    sekcja.style.display = "none"; 
+  } 
 }
