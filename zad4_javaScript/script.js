@@ -7,3 +7,13 @@ function zmianaStylu() {
     styl.setAttribute("href", "red.css");
   }
 }
+
+function ukryjProjekty() {
+  sekcja = document.getElementById("mojaSekcja");
+
+  if (sekcja.style.display === "none") {
+    sekcja.style.display = "block";
+  } else {
+    sekcja.style.display = "none";
+  }
+}
