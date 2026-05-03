@@ -9,7 +9,7 @@ function zmianaStylu() {
 }
 
 function ukryjProjekty() {
-  sekcja = document.getElementById("mojaSekcja");
+  sekcja = document.getElementById("projekty");
 
   if (sekcja.style.display === "none") {
     sekcja.style.display = "block";
