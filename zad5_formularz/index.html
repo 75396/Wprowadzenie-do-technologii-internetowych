@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrian Kośnik - CV</title>
+    <link id="stylStrony" rel="stylesheet" href="red.css">
+</head>
+<body>
+
+<button onclick="zmianaStylu()">Zmień Styl</button>
+<header>
+    <h1>Adrian Kośnik</h1>
+    <img src="ZdjecieDowod.png" alt="Zdjęcie Adriana Kośnika" width="150">
+</header>
+
+<main>
+
+    <section>
+        <h2>Kontakt</h2>
+        <p>Email: <a href="mailto:akosnik1@stu.vistula.edu.pl">akosnik1@stu.vistula.edu.pl</a></p>
+        <p>Telefon: <a href="tel:+48505386090">+48 505 386 090</a></p>
+        <p>Miasto: Ząbki</p>
+        <p>
+            GitHub: 
+            <a href="https://github.com/75396" target="_blank" rel="noopener noreferrer">Profil GitHub</a>
+        </p>
+        <p>
+            Linkedin: 
+            <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">Profil Linkedin</a>
+        </p>
+    </section>
+
+    <section>
+        <h2>O mnie</h2>
+        <p>Jestem studentem w Akademii Finansów i Biznesu Vistula.</p>
+    </section>
+
+    <section>
+        <h2>Umiejętności</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>PHP</li>
+            <li>C#</li>
+            <li>C++</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Doświadczenie</h2>
+
+        <article>
+            <h3>Wojskowe Zakłady Elektroniczne</h3>
+            <p>Marzec 2023</p>
+            <p>4 tygodnie praktyk zawodowych w Wojskowych Zakładach Elektronicznych</p>
+        </article>
+
+        <article>
+            <h3>Urząd Miasta Ząbki</h3>
+            <p>Czerwiec 2024</p>
+            <p>4 tygodnie praktyk zawodowych w Zespole Informatycznym Urzędu Miasta Ząbki</p>
+        </article>
+
+    </section>
+
+    <section>
+        <h2>Edukacja</h2>
+        
+        <article>
+            <h3>Technikum w Zespole Szkół im. Prezydenta Ignacego Mościckiego w Zielonce - Technik Programista</h3>
+            <p>2020-2025</p>
+        </article>
+
+        <article>
+            <h3>Akademia Finansów i Biznesu Vistula - Informatyka</h3>
+            <p>2025-Obecnie</p>
+        </article>
+    </section>
+    <button onclick="ukryjProjekty()">Pokaż/Ukryj</button>
+    <section id="projekty" display="block">
+        <h2>Projekty</h2>
+        <ul>
+            <li>Program wieloformularzowy umożliający analizę tabelaryczną i graficzną funkcji matematycznej w języku C#</li>
+            <li>Program formularzowy dla obsługi funkcjonalności Symulatora Bankomatu w języku C#</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Kontakt</h2>
+        <input type="text" id="imie" placeholder="Imię">
+        <br>
+        <input type="text" id="nazwisko" placeholder="Nazwisko">
+        <br>
+        <input type="text" id="email" placeholder="E-mail">
+        <br>
+        <textarea id="wiadomosc" placeholder="Twoja wiadomość" rows="5" cols="40"></textarea>
+        <br>
+        <button onclick="wyslijWiadomosc()">Wyślij</button>
+        <div id="bledy" style="color:red; margin-top:10px;"></div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Adrian Kośnik</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
