@@ -1,0 +1,13 @@
+{
+  "umiejetnosci": [
+    "HTML5",
+    "CSS3",
+    "PHP",
+    "C#",
+    "C++"
+  ],
+  "projekty": [
+    "Program wieloformularzowy umożliwiający analizę funkcji matematycznej w C#",
+    "Program formularzowy Symulator Bankomatu w C#"
+  ]
+}
